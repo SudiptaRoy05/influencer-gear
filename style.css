@@ -31,6 +31,15 @@ body {
   font-weight: 700;
 }
 
+.btn-secondary {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  background-color: rgb(224, 44, 109);
+  border: none;
+}
+
 /* -------------Nav Styles_-------------- */
 
 .nav-area {
@@ -152,6 +161,64 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
 }
-#golden{
+#golden {
   color: rgb(218, 191, 39);
+}
+#btm-right {
+  text-align: right;
+  margin-right: 3rem;
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* ------------------feature container -------------------- */
+
+.feature-product-container {
+  width: 72vw;
+  margin: 5rem auto;
+  justify-content: space-around;
+
+}
+
+.feature-img {
+  width: 100%;
+}
+
+.feature-docs h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 1.5rem 0;
+}
+.feature-docs p {
+  width: 45.3rem;
+  color: rgb(108, 108, 108);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* -----------------footer ------------------------ */
+.footer-area {
+  background-color: rgb(10, 8, 38);
+  padding: 7rem;
+  text-align: center;
+  color: white;
+}
+
+.footer-area h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.footer-area p {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.social-links{
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
