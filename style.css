@@ -178,7 +178,6 @@ body {
   width: 72vw;
   margin: 5rem auto;
   justify-content: space-around;
-
 }
 
 .feature-img {
@@ -217,8 +216,78 @@ body {
   margin-bottom: 0.8rem;
 }
 
-.social-links{
+.social-links {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+}
+
+/* ----------------media quearies------------------- */
+
+@media screen and (max-width: 576px) {
+  .nav-options {
+    display: none;
+  }
+
+  .nav-name h3{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    /* text-align: center; */
+  }
+
+  .banner-content{
+    flex-direction: column-reverse;
+  }
+
+  .banner-docs{
+    margin: 0;
+  }
+
+  .banner-docs h1{
+    font-size: 2rem;
+    width: 80vw;
+
+  }
+
+  .banner-docs p{
+    width: 80vw;
+  }
+
+  .banner-img{
+    margin-left: 0;
+  }
+
+  .sponsore-companies{
+    flex-wrap: wrap;
+  }
+  .sponsore-container,
+  .divider {
+    margin: 0 2rem;
+    gap: 2rem;
+    /* gap: rem; */
+  }
+  .popular-collection-section h1 {
+    margin-left: 2rem;
+    width: 80vw;
+    margin-top: 0;
+  }
+  .popular-collection-container {
+    grid-template-columns: 1fr;
+    margin-left: 5rem;
+  }
+  
+  
+  .feature-product {
+    flex-direction: column;
+  }
+  .feature-docs p {
+    width: 80vw;
+  }
+
+  .popular-collection-section {
+    margin: 0;
+  }
+  .footer-area{
+    /* width: ; */
+  }
 }
